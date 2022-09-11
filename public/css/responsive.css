@@ -1,0 +1,160 @@
+@media screen and (max-width: 800px) {
+    .us-info{
+        flex-direction: column;
+        height: auto;
+    }
+    .us-info > div{
+        width: 100%;
+    } 
+}
+ 
+
+    /* TEXT OFFER SECTION RESPONSIVE */
+
+    @media screen and (max-width: 1000px) {
+
+        .box .text-icon > h1{
+            font-size: calc(11px + 1.5vw);    
+        }
+        .text-info > h1{
+            font-size: calc(11px + 1.5vw);    
+        }
+        
+    }
+
+    @media screen and (max-width: 850px) {
+
+        .box .text-icon > h1{
+            font-size: calc(10px + 1.5vw);    
+        }
+        .text-info > h1{
+            font-size: calc(10px + 1.5vw);   
+        }
+        .info{
+            height: auto;
+            flex-direction: column;
+            padding-bottom: 1.5rem;
+        }
+        
+        .image{
+            width: 100%;
+        }
+        .image img{
+            height: 250px;
+        }
+        .text-info{
+            width: 100%;
+            text-align: center;
+            padding: 1rem;
+            margin: 0;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+
+    .box .text-icon > h1{
+        font-size: calc(10px + 2.4vw);    
+    }
+    .text-info > h1{
+        font-size: calc(10px + 2.4vw); 
+    
+    }
+
+    .text-comm{
+        width: 100%;
+    }
+    .footer{
+        flex-direction: column;
+        text-align: center;
+        padding: 3rem;
+    }
+    .block{
+        display: block;
+        margin-top: 5px;
+    }
+    .symbol{
+        display: none;
+    }
+}
+
+    @media screen and (max-width: 450px) {
+
+        .box .text-icon > h1{
+            font-size: calc(10px + 4vw);    
+        }
+        .text-info > h1{
+            font-size: calc(10px + 4vw);   
+        }
+
+}
+
+    /*  */
+
+@media screen and (max-width: 550px) {
+    .navbar{
+        flex-direction: column-reverse;
+        height: 120px;
+    }
+    .logo-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .number{
+        margin-top: 1.5rem;
+    }
+    .home-section::before{
+        background-position: right center;
+    }
+
+
+
+
+    /* 
+    OFFER SECTION
+    */
+
+
+
+
+    .box{
+        text-align: center;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .icons-grid{
+        row-gap: 50px;
+    }
+
+    .comm{
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 320px) {
+    .navbar{
+        height: 150px;
+    }
+    .number{
+        text-align: center;
+    }
+    .number span{
+        display: block;
+    }
+
+    .box .text-icon > h1{
+        font-size: calc(11px + 4vw);    
+    }
+    .text-info > h1{
+        font-size: calc(11px + 4vw);   
+    }
+
+}
