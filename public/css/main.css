@@ -284,7 +284,7 @@ COMM
 
 .footer{
     width: 100%;
-    height: 70px;
+    height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,7 +292,24 @@ COMM
     color: #eee;
     font-weight: 500;
     padding: 2rem;
+
+    flex-direction: column;
 }
+.icons a{
+    font-size: 25px;
+        transition: .5s all;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 5px;
+
+}
+
+.icons a:hover{
+    color: var(--portland-orange);
+}
+
 
 .footer .code{
     color: var(--portland-orange);
